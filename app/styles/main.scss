@@ -565,11 +565,11 @@ body.off #preloader .mfp-preloader-container {
 
 @font-face {
   font-family: "tabanella";
-  src:url("fonts/tabanella.eot");
-  src:url("fonts/tabanella.eot?#iefix") format("embedded-opentype"),
-    url("fonts/tabanella.woff") format("woff"),
-    url("fonts/tabanella.ttf") format("truetype"),
-    url("fonts/tabanella.svg#tabanella") format("svg");
+  src:url("/fonts/tabanella.eot");
+  src:url("/fonts/tabanella.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/tabanella.woff") format("woff"),
+    url("/fonts/tabanella.ttf") format("truetype"),
+    url("/fonts/tabanella.svg#tabanella") format("svg");
   font-weight: normal;
   font-style: normal;
 
