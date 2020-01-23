@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Vue Presentation</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:500" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="build/build.css">
+  </head>
+  <body>
+    <article>
+      <section style="background: url(images/loading.gif) no-repeat center center; background-color: white;" class="full"></section>
+      <section style="background: url(images/vue-animated.gif) no-repeat center center; background-color: rgba(0, 246, 252, 1.0)" class="full full-cover">
+        <h1>Vue.js</h1>
+      </section>
+      <section style="background: url(images/mess.gif) no-repeat center center;" class="full full-contain">
+        <h1 class="white">DOM is a mess</h1>
+        <h3 class="white">(John Resig in 2009)</h3>
+      </section>
+      <section style="background: url(images/js-libraries.jpg) no-repeat center center;" class="full"></section>
+      <section>
+        <h1>Example</h1>
+        <iframe height="465" scrolling="no" src="//codepen.io/leRenard/embed/GvGGjM/?height=265&amp;theme-id=0&amp;default-tab=result&amp;embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
+      </section>
+      <section>
+        <h1>Vanilla Js</h1>
+        <iframe height="465" scrolling="no" src="//codepen.io/leRenard/embed/GvGGjM/?height=265&amp;theme-id=0&amp;default-tab=js&amp;embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
+      </section>
+      <section>
+        <h1>jQuery</h1>
+        <iframe height="465" scrolling="no" src="//codepen.io/leRenard/embed/qXKKoq/?height=265&amp;theme-id=0&amp;default-tab=js&amp;embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
+      </section>
+      <section>
+        <h1 class="vue">Vue.js</h1>
+        <iframe height="465" scrolling="no" src="//codepen.io/leRenard/embed/qXKBWV/?height=265&amp;theme-id=0&amp;default-tab=js&amp;embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
+      </section>
+      <section style="background: url(images/allright.gif) no-repeat center center;" class="full full-cover">
+        <h1 class="vue">Fucking awesome</h1>
+      </section>
+      <section>
+        <h2>but.. but..</h2>
+        <h2>there are soooo many</h2><img src="images/frameworks.png">
+      </section>
+      <section class="full"><img src="images/vue-logo.png">
+        <h2>why Vue ?</h2>
+      </section>
+      <section>
+        <h2 class="bullet">Because:</h2>
+        <ul>
+          <li><vue>Variables are reactive</vue> (observable / watchers)</li>
+          <li><vue>Separation of concerns</vue> (Data driven)</li>
+          <li><vue>Components</vue> (reuse)</li>
+          <li><vue>Approchable</vue> (you write HTML or 🐶)</li>
+          <li><vue>Versatile</vue> (minimal core + addons)</li>
+          <li><vue>Performant</vue> (20kb!!! + Virtual DOM)</li>
+        </ul>
+      </section>
+      <section>
+        <h1 class="vue">Reactivity</h1><img src="images/reactivity.png" class="rsp bullet">
+      </section>
+      <section>
+        <h2>how it works ?</h2>
+        <pre><code class="language-javascript">Object.defineProperty(o, "b", {
+  get : function(){ return 'YO!'; },
+  set : function(){
+    iKnowYouChanged( ... )
+}, ...
+</code></pre>
+      </section>
+      <section>
+        <h1 class="vue">Virtual DOM</h1><img src="images/virtual-dom.png" class="bullet">
+      </section>
+      <section>
+        <h2>how it works ?</h2>
+      </section>
+      <section style="background: url(images/magic.gif) no-repeat center center;" class="full full-contain">
+        <h2 class="bullet"></h2>
+        <h2 class="vue bullet">https://github.com/snabbdom</h2>
+      </section>
+      <section>
+        <h1 class="vue bullet">What Vue can do for me ?</h1>
+        <ul>
+          <li><vue>Reactive Properties</vue></li>
+          <li><vue>Computed properties, watchers, methods</vue></li>
+          <li><vue>lifeCycles callbacks</vue></li>
+          <li><vue>Directives on :class and :styles</vue></li>
+          <li><vue>Conditional Rendering</vue></li>
+          <li><vue>Filters</vue></li>
+          <li><vue>Lists</vue></li>
+          <li><vue>Events</vue></li>
+          <li><vue>Transitions</vue></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Reactive and Computed properties, watchers & methods</h2>
+        <iframe height="665" scrolling="no" src="//codepen.io/leRenard/embed/jLKXYa/?height=665&amp;theme-id=0&amp;default-tab=js,result&amp;embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
+      </section>
+      <section>
+        <h2>Directives, Loops, Transitions, Filters</h2>
+        <iframe height="665" scrolling="no" src="//codepen.io/leRenard/embed/VzBWBG/?height=665&amp;theme-id=0&amp;default-tab=html&amp;embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
+      </section>
+      <section>
+        <h2>Lifecycles</h2>
+        <pre><code class="language-javascript">{ ...
+  beforeCreate()
+  created()
+  beforeMount()
+  mounted()
+  beforeUpdate()
+  updated()
+  beforeDestroy()
+  destroyed()
+}
+</code></pre>
+      </section>
+      <section>
+        <h1 class="vue bullet">And that's all ?</h1>
+        <ul>
+          <li><vue>Components</vue></li>
+          <li><vue>Props</vue></li>
+          <li><vue>Slots</vue></li>
+        </ul>
+      </section>
+      <section class="full full-cover">
+        <h1 class="vue">Components</h1><img src="images/components.png" class="rsp bullet">
+      </section>
+      <section>
+        <h1 class="vue">Single file Components</h1><img src="images/vue-format.png" class="bullet">
+      </section>
+      <section><img src="images/vue-component.png" style="max-height: 80vh; height: auto" class="bullet"></section>
+      <section><img src="images/vue-transform-webpack.png" class="bullet"></section>
+      <section style="background: url(images/awesome.gif) no-repeat center center;" class="full full-cover"></section>
+      <section>
+        <h1 class="bullet vue">Vue Router</h1>
+        <h2 class="bullet vue">Async Components!</h2><img src="images/code-splitting.png" class="rsp bullet">
+      </section>
+      <section>
+        <h1 class="bullet vue">Vuex</h1>
+        <h2 class="bullet vue">source of truth</h2><img src="images/vuex.png" class="rsp bullet">
+      </section>
+      <section style="background: url(images/truth.gif) no-repeat center center;" class="full full-contain"></section>
+      <section style="background: url(images/happy.gif) no-repeat center center;" class="full full-cover">
+        <h1 class="bullet vue">Merci!</h1>
+        <h2 class="bullet vue">@monsieurLeRenard 😺</h2>
+      </section>
+    </article>
+    <script src="build/build.js"></script>
+  </body>
+</html>

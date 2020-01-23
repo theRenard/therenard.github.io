@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Interstate';
+  src: url('Interstate-BlackCondensed.eot'); /* IE9 Compat Modes */
+  src: url('Interstate-BlackCondensed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Interstate-BlackCondensed.woff') format('woff'), /* Modern Browsers */
+       url('Interstate-BlackCondensed.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Interstate-BlackCondensed.svg#6200dc53f87d94da909fc0f399a96e54') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

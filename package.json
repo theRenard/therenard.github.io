@@ -4,7 +4,8 @@
     "node": ">=0.12.0"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "gulp": "gulp"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",
