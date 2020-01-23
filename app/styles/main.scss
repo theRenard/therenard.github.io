@@ -561,3 +561,55 @@ body.off #preloader .mfp-preloader-container {
   margin: 0 -3px 0 0;
 }
 /* @end */
+@charset "UTF-8";
+
+@font-face {
+  font-family: "tabanella";
+  src:url("fonts/tabanella.eot");
+  src:url("fonts/tabanella.eot?#iefix") format("embedded-opentype"),
+    url("fonts/tabanella.woff") format("woff"),
+    url("fonts/tabanella.ttf") format("truetype"),
+    url("fonts/tabanella.svg#tabanella") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "tabanella" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="tb-"]:before,
+[class*=" tb-"]:before {
+  font-family: "tabanella" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tb-github:before {
+  content: "\61";
+}
+.tb-linkedin:before {
+  content: "\62";
+}
+.tb-behance:before {
+  content: "\64";
+}
+.tb-codepen-logo-2:before {
+  content: "\63";
+}
